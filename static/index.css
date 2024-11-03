@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "sparkline";
+    src: url("sparks-dotline-medium.woff2");
+  }
+
+  .sparkline {
+    font-family: "sparkline";
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }

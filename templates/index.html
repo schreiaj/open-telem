@@ -1,0 +1,21 @@
+<!DOCTYPE html5>
+<head>
+    <script src="/static/htmx.js"></script>
+    <script src="/static/sse.js"></script>
+    <link rel="stylesheet" href="/static/index.css">
+    
+</head>
+<body>
+
+    <h1>Telemetry: Bot Name</h1>
+    <div hx-ext="sse" sse-connect="/telemetry_slow" sse-swap="message">
+        Contents of this will be replaced by the telemetry stream.
+    </div>
+    <div hx-ext="sse" sse-connect="/telemetry_slow" sse-swap="message">
+        Contents of this will be replaced by the telemetry stream.
+    </div>
+    <div hx-ext="sse" sse-connect="/telemetry_fast" sse-swap="message">
+        Contents of this will be replaced by the telemetry stream.
+    </div>
+
+</body>
